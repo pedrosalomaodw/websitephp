@@ -13,7 +13,7 @@ function login(){
         if($email == $email_validade and $senha == $senha_validade){
                 header('Location: posts.php');
         }
-        elseif( $email == "pedro12@gmail.com" and $senha =="11233"){
+        elseif( $email == "admin@gmail.com" and $senha =="11233"){
             header('Location: admin.php');
         };
     //    if($email && $senha == $dados)
